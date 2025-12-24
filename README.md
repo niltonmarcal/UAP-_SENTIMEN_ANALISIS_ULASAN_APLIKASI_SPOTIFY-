@@ -106,6 +106,7 @@ Evaluasi performa model dilakukan menggunakan:
 
 Hasil perbandingan model juga disimpan dalam file:
 
+
 ---
 
 ## 🌐 Dashboard Streamlit
@@ -123,7 +124,7 @@ Hasil perbandingan model juga disimpan dalam file:
 ## ▶️ Cara Menjalankan Dashboard
 
 Install dependency:
-```bash
+bash
 pip install streamlit torch transformers
 streamlit run app.py
 UAP_ML_PROJECT/
@@ -139,17 +140,15 @@ UAP_ML_PROJECT/
 ├── UAP_ML.ipynb
 ├── model_comparison.csv
 └── README.md
-📝 Catatan Notebook
 
-Notebook dibuat ulang menggunakan VS Code (Jupyter) untuk memastikan kompatibilitas penuh dengan GitHub Notebook Renderer.
-Notebook dapat dijalankan secara normal di VS Code, Jupyter Notebook, maupun Google Colab.
+## 📝 Catatan Notebook
+Notebook dibuat ulang menggunakan **VS Code (Jupyter)** untuk memastikan kompatibilitas penuh dengan **GitHub Notebook Renderer**.  
+Notebook dapat dijalankan secara normal di **VS Code**, **Jupyter Notebook**, maupun **Google Colab**.
 
-✅ Kesimpulan
-
+## ✅ Kesimpulan
 Proyek ini berhasil mengimplementasikan klasifikasi sentimen teks menggunakan:
+- satu model neural network dasar (**BiLSTM**)
+- dua model pretrained berbasis Transformer (**IndoBERT** dan **DistilBERT**)
 
-satu model neural network dasar (BiLSTM)
+Hasil eksperimen menunjukkan bahwa **transfer learning memberikan peningkatan performa yang signifikan** dibandingkan model dasar.
 
-dua model pretrained berbasis Transformer (IndoBERT dan DistilBERT)
-
-Hasil eksperimen menunjukkan bahwa transfer learning memberikan peningkatan performa yang signifikan dibandingkan model dasar.
