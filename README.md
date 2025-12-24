@@ -125,9 +125,23 @@ Hasil perbandingan model juga disimpan dalam file:
 ### 1️⃣ Install Dependency
 Pastikan Python sudah terpasang, lalu jalankan perintah berikut:
 
-``bash
+```bash
 pip install streamlit torch transformers
 
+2️⃣ Jalankan Aplikasi
+
+Masuk ke folder project, lalu jalankan perintah berikut:
+
+streamlit run app.py
+
+Aplikasi Streamlit akan terbuka di browser dan dapat digunakan untuk melakukan prediksi sentimen teks.
+
+
+
+
+
+
+📁 Struktur Folder
 UAP_ML_PROJECT/
 ├── data/
 │   └── spotify_uap_6000_balanced.csv
