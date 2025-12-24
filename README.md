@@ -135,7 +135,7 @@ streamlit run app.py
 
 Aplikasi Streamlit akan terbuka di browser dan dapat digunakan untuk melakukan prediksi sentimen teks.
 
-
+---
 ✅ Kesimpulan
 
 Proyek ini berhasil mengimplementasikan klasifikasi sentimen teks menggunakan:
