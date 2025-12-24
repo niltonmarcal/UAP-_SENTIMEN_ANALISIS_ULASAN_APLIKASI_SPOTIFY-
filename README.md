@@ -125,7 +125,7 @@ Hasil perbandingan model juga disimpan dalam file:
 ### 1️⃣ Install Dependency
 Pastikan Python sudah terpasang, lalu jalankan perintah berikut:
 
-```bash
+
 pip install streamlit torch transformers
 
 2️⃣ Jalankan Aplikasi
@@ -137,35 +137,14 @@ streamlit run app.py
 Aplikasi Streamlit akan terbuka di browser dan dapat digunakan untuk melakukan prediksi sentimen teks.
 
 
-
-
-
-
-📁 Struktur Folder
-UAP_ML_PROJECT/
-├── data/
-│   └── spotify_uap_6000_balanced.csv
-├── models/
-│   ├── indobert/
-│   ├── distilbert/
-│   ├── base_bilstm.keras
-│   └── label_classes.json
-├── src/
-│   └── app.py
-├── UAP_ML.ipynb
-├── model_comparison.csv
-└── README.md
-
----
-
-## 📝 Catatan Notebook
+📝 Catatan Notebook
 Notebook dibuat ulang menggunakan **VS Code (Jupyter)** untuk memastikan kompatibilitas penuh dengan **GitHub Notebook Renderer**.  
 Notebook dapat dijalankan secara normal di **VS Code**, **Jupyter Notebook**, maupun **Google Colab**.
 
 ## ✅ Kesimpulan
 Proyek ini berhasil mengimplementasikan klasifikasi sentimen teks menggunakan:
 - satu model neural network dasar (**BiLSTM**)
-- dua model pretrained berbasis Transformer (**IndoBERT** dan **DistilBERT**)
+- dua model pretrained berbasis Transformer (**IndoBERT** dan **DistilBERT)
 
 Hasil eksperimen menunjukkan bahwa **transfer learning memberikan peningkatan performa yang signifikan** dibandingkan model dasar.
 
