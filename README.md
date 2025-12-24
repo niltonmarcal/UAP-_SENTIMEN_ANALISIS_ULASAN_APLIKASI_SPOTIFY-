@@ -127,6 +127,7 @@ Install dependency:
 bash
 pip install streamlit torch transformers
 streamlit run app.py
+
 UAP_ML_PROJECT/
 ├── data/
 │   └── spotify_uap_6000_balanced.csv
