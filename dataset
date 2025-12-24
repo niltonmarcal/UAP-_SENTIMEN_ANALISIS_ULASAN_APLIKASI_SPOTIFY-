@@ -1,0 +1,39 @@
+📂 Dataset
+🔗 Sumber Dataset: https://drive.google.com/file/d/1ot0D4IhsI1Y3ZuNdeWfmpJh1XS2xzlpT/view?usp=sharing
+Dataset yang digunakan dalam proyek ini adalah dataset ulasan aplikasi Spotify berbahasa Indonesia, yang diperoleh dari proses pengumpulan data daring dan telah disesuaikan untuk kebutuhan tugas Ujian Akhir Praktikum (UAP).
+Dataset ini berisi kumpulan opini dan ulasan pengguna terhadap aplikasi Spotify yang digunakan untuk tugas klasifikasi sentimen teks menggunakan pendekatan Machine Learning dan Deep Learning.
+________________________________________
+📊 Deskripsi Dataset
+Secara keseluruhan, dataset terdiri dari sekitar 6.000 data ulasan teks yang telah melalui proses pembersihan dan pelabelan sentimen.
+Setiap data merepresentasikan satu ulasan pengguna aplikasi Spotify yang mencerminkan pengalaman, kepuasan, maupun keluhan pengguna.
+Dataset ini dikurasi untuk memastikan:
+•	Representasi bahasa Indonesia yang baik
+•	Variasi opini pengguna
+•	Keseimbangan antar kelas sentimen
+________________________________________
+🧩 Komposisi Kelas
+Dataset dibagi ke dalam tiga (3) kelas sentimen utama, dengan distribusi data yang relatif seimbang:
+1.	Sentimen Positif
+Mewakili ulasan pengguna yang menunjukkan kepuasan, apresiasi, dan pengalaman positif terhadap aplikasi Spotify.
+2.	Sentimen Netral
+Berisi ulasan yang bersifat informatif atau tidak menunjukkan kecenderungan emosi yang kuat.
+3.	Sentimen Negatif
+Mencakup ulasan yang mengandung keluhan, kritik, atau ketidakpuasan terhadap layanan atau fitur Spotify.
+📌 Dataset telah melalui proses balancing untuk meminimalkan bias terhadap kelas tertentu.
+________________________________________
+🧹 Pra-pemrosesan Data
+Sebelum digunakan dalam proses pelatihan model, dataset telah melalui beberapa tahapan pra-pemrosesan teks, antara lain:
+•	Case folding (mengubah seluruh teks menjadi huruf kecil)
+•	Penghapusan URL, tanda baca, angka, dan karakter khusus
+•	Normalisasi spasi
+•	Tokenisasi teks
+•	Padding dan truncation untuk menyesuaikan panjang input model
+Tahapan pra-pemrosesan ini bertujuan untuk meningkatkan kualitas data dan memastikan kompatibilitas dengan model BiLSTM maupun model berbasis Transformer.
+________________________________________
+🔄 Augmentasi Data
+Tidak dilakukan augmentasi data secara eksplisit seperti pada data citra.
+Namun, penggunaan model pretrained (IndoBERT dan DistilBERT) secara tidak langsung membantu meningkatkan kemampuan generalisasi model melalui representasi bahasa yang telah dipelajari dari korpus besar.
+________________________________________
+📌 Dataset ini difokuskan untuk tugas klasifikasi sentimen teks, bukan untuk analisis topik atau ekstraksi entitas.
+
+
