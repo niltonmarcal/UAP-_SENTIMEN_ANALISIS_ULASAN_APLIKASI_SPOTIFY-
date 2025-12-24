@@ -135,10 +135,6 @@ streamlit run app.py
 
 Aplikasi Streamlit akan terbuka di browser dan dapat digunakan untuk melakukan prediksi sentimen teks.
 
-📝 Catatan Notebook
-
-Notebook dibuat ulang menggunakan VS Code (Jupyter) untuk memastikan kompatibilitas penuh dengan GitHub Notebook Renderer.
-Notebook dapat dijalankan secara normal di VS Code, Jupyter Notebook, maupun Google Colab.
 
 ✅ Kesimpulan
 
