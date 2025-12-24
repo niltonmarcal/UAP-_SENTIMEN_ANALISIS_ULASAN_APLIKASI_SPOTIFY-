@@ -120,13 +120,13 @@ Hasil perbandingan model juga disimpan dalam file:
 📌 Dashboard digunakan sebagai media demonstrasi hasil model.
 
 ---
-
 ## ▶️ Cara Menjalankan Dashboard
 
-Install dependency:
-bash
+### 1️⃣ Install Dependency
+Pastikan Python sudah terpasang, lalu jalankan perintah berikut:
+
+``bash
 pip install streamlit torch transformers
-streamlit run app.py
 
 UAP_ML_PROJECT/
 ├── data/
@@ -141,6 +141,8 @@ UAP_ML_PROJECT/
 ├── UAP_ML.ipynb
 ├── model_comparison.csv
 └── README.md
+
+---
 
 ## 📝 Catatan Notebook
 Notebook dibuat ulang menggunakan **VS Code (Jupyter)** untuk memastikan kompatibilitas penuh dengan **GitHub Notebook Renderer**.  
